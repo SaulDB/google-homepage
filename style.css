@@ -1,0 +1,337 @@
+*
+{
+    /* border:solid thin; */
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: 'roboto';
+    
+}
+h1
+{
+    font-weight: 100;
+}
+body
+{
+    min-width: 900px;
+}
+img
+{
+height:50px;
+}
+#searchSec
+{
+    position:sticky;
+    top:0;
+    margin-top:15px;
+    border-bottom:solid thin rgba(32,33,36,0.15);
+    padding-bottom: 10px;
+    height: 55px;
+    background:white;
+    
+}
+.floaterL img
+{
+float:left;
+width:150px;
+height:50px;
+padding: 10px 30px; 
+}
+
+#profileSec{
+display:flex;
+justify-content: flex-end;
+align-items: center;
+float:right;
+min-width: 150px;
+height: 50px;
+}
+
+.floaterR
+{
+    margin-right: 25px;;
+}
+.floaterR img
+{
+width: 25px;
+height: 25px;
+}
+#searchBoxContainer
+{
+    margin-right:150px;
+}
+form
+{
+    height:50px;
+    display: flex;
+    align-items: center;
+    position:relative;
+}
+input[type="text"]
+{
+    border: solid thin lightgray;
+    border-radius: 25px;
+    min-width:625px;
+   height:44px;
+   padding-left: 15px;
+   font-size: 1.10em;
+   font-weight: 100;
+   
+   
+}
+input[type=text]:hover,input[type=text]:focus 
+{
+    outline-width:0;
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+#searchIconSpan
+{
+    position:absolute;
+    left:565px;
+}
+.searchIcon
+{
+    height:20px;
+    width:20px;
+    
+}
+main
+{
+margin: 0 165px;
+}
+nav
+{
+    display: flex;
+    width:625px;
+    justify-content: space-between;
+    margin: 20px 150px 20px 150px;
+
+}
+
+.navText
+{
+    width:78px;
+    margin:0;
+    display:inline-block;
+    text-align: center;
+    text-decoration: none;
+    color:gray;
+    font-size: .9em;
+    
+}
+.navText:hover
+{
+    color:#1A73E8;
+}
+.navIcon
+{
+    height:1em;
+    width:1em;
+}
+#navBox1
+{
+    width:530px;
+}
+
+#navBox1 img
+{
+    margin-right: 2px;
+}
+#activeNav
+{
+    padding-bottom:10px;
+    border-bottom:#1A73E8 solid;
+}
+#navBox2
+{
+    width:120px;
+
+
+}
+#navBox2 .navText
+{
+    width:50px;
+    
+}
+#tools:hover
+{
+    color:gray;
+    border:solid gray thin;
+    
+}
+#searchSpeed
+{
+    color:gray;
+}
+.result a
+{
+    display:inline-block;
+}
+.resultLink
+{
+    text-decoration: none;
+    font-size:20px;
+    color:#1a0dab;
+    padding-top:25px;
+}
+
+.resultLink:visited, .resultVideoLink:visited
+{
+    color:#609;
+    
+}
+.resultLink:hover
+{
+text-decoration:underline;
+}
+.resultURL
+{
+    color:rgb(2, 99, 2);
+    font-size:16px;
+    padding:3px 0;
+}
+.resultDescription
+{
+    color: #545454;
+    font-size: 16px;
+}
+
+h1
+{
+    margin-top:25px;
+}
+#FAQ
+{
+   
+    border:solid rgb(223, 225, 229) thin;
+    border-radius: 8px;
+}
+
+#FAQ a, #FAQ h1
+{
+    border:solid rgb(223, 225, 229) thin;
+    padding:10px;
+}
+
+#FAQ a
+{
+display:flex;
+justify-content: space-between;
+text-decoration:none;
+color:black;
+}
+.downCarrot
+{
+    height:15px;
+}
+
+#resultVideoSection
+{
+    display:flex;
+    justify-content: space-between;
+
+}
+.resultVideoContainer
+{
+    height:305px;
+    width:215px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border:solid rgb(223, 225, 229) thin;
+    border-radius: 8px;
+    position: relative;
+    z-index: -1;
+    overflow:hidden;
+}
+.resultVideoThumbnail
+{
+    height:150px;
+    width:215px;
+}
+.resultVideoPlayButton
+{
+    position: absolute;
+    top:55px;
+    left:87px;
+    height:40px;
+    width:40px;
+}
+.resultVideoDuration
+{
+    position:absolute;
+    top:130px;
+    left:3px;
+    background: rgba(0, 0, 0, 0.438);
+    color:white;
+    font-size: 15px;
+}
+.resultVideoLink
+{
+    padding:10px;
+}
+a
+{
+    text-decoration: none;
+    color:#1a0dab;
+}
+a:hover{
+    text-decoration: underline;
+}
+.resultVideoAuthor, .resultVideoDetails
+{
+    color:gray;
+    padding-left:10px;
+}
+.resultVideoWebsite
+{
+    color:rgb(2, 99, 2)
+}
+
+#suggestions a 
+{
+    display:inline-block;
+    padding:10px;
+}
+
+#resultPageNav
+{
+    padding-top:10px;
+    display:flex;
+    min-width:625px;
+    justify-content: center;
+}
+.botNav
+{
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+    width:35px;
+    height:73px;
+}
+#fuck
+{
+    position:relative;
+    bottom:-4px;
+}
+footer
+{
+background:rgba(211, 211, 211, 0.555);
+margin-top: 20px;
+padding-top: 5px;
+padding-left: 150px;
+border-top:solid thin rgba(179, 179, 179, 0.623);
+}
+#almostDone
+{
+    display:flex;
+    justify-content: space-between;
+    width:400px;
+    
+}
+#almostDone a
+{
+    padding-top:15px;
+    color:gray;
+}
