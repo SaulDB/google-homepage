@@ -99,6 +99,7 @@ input[type=text]:hover,input[type=text]:focus
 main
 {
 margin: 0 165px;
+max-width: 600px;
 }
 nav
 {
